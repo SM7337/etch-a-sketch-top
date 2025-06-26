@@ -3,5 +3,34 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  height: 960px;
+  width: 960px;
+  border: 3px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.pixel {
+  background-color: #000;
+}
+
+.headcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headcontainer > button {
+  width: 100px;
+  height: 50px;
+  margin-right: 50px;
 }
